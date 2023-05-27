@@ -1,0 +1,51 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+  }
+
+.btn {
+    margin: 100px;
+    margin-top: 200px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.popover {
+    border: 1px solid rgba(1, 1, 1, .1);
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.popover-title {
+    background-color: rgba(1, 1, 1, 0.1);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.popover-text {
+    padding: 10px;
+}
+
+.popover-text::after {
+    content: '';
+    width: 13px;
+    height: 13px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 98%;
+    z-index: 10;
+    border-right: 1px solid rgba(1, 1, 1, .1);
+    border-bottom: 1px solid rgba(1, 1, 1, .1);
+    background: white;
+    transform: rotate(45deg) translateX(-50%);
+}
+
+
